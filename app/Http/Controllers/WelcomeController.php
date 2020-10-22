@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Appointment;
+use App\Consultation;
 
 class WelcomeController extends Controller
 {
@@ -45,4 +46,20 @@ class WelcomeController extends Controller
     // 
     return back()->with('success', 'We have received your appointment and would get back to you shortly.');
     }
+
+    // public function ConsultationForm(Request $request){
+    //     // Form validation
+    //     $this->validate($request, [
+    //         'name' => 'required',
+    //         'email' => 'required|email',
+    //         'message' => 'required',
+    //         'inquiry' => 'required'
+    //      ]);
+    
+    //     //  Store data in database
+    //     Consultation::create($request->all());
+    
+    //     // 
+    //     return back()->with('success', 'We have received your appointment and would get back to you shortly.');
+    // }
 }

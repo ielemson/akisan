@@ -23,6 +23,10 @@ Route::post('/', [
     'uses' => 'WelcomeController@AppointmentForm',
     'as' => 'appointment.store'
 ]);
+// Route::post('consult', [
+//     'uses' => 'WelcomeController@ConsultationForm',
+//     'as' => 'consultation.store'
+// ]);
 // Route::get('/comingsoon', function () {
 //     return view('comingSoon');
 // });
@@ -41,12 +45,3 @@ Route::post('/contact', [
     'as' => 'contact.store'
 ]);
 
-
-
-
-
-// Route::get('/comingsoon', 'ComingSoonController@index')->name('comingSoon');
-
-// Auth::routes();
-
-// Route::get('/home', 'HomeController@index')->name('home');

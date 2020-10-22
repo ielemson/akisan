@@ -52,46 +52,15 @@
 
        <!-- Main Style CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/alert.css')}}" />
 
-    <!-- CSS
-        ============================================ -->
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-
-    <!-- Font Family CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/cerebrisans.css">
-
-    <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/fontawesome-all.min.css">
-
-    <!-- Swiper slider CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
-
-    <!-- animate-text CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/animate-text.css">
-
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
-
-    <!-- Light gallery CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/lightgallery.min.css">
-
-    <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from avobe) -->
-    <!--
-        <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
-        <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
-        -->
-
-    <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
 
 
-    <div class="preloader-activate preloader-active open_tm_preloader">
+<div class="preloader-activate preloader-active open_tm_preloader">
         <div class="preloader-area-wrap">
             <div class="spinner d-flex justify-content-center align-items-center h-100">
                 <div class="bounce1"></div>
@@ -106,13 +75,6 @@
     <!--====================  footer area ====================-->
    @include('inc.footer')
     <!--====================  End of footer area  ====================-->
-
-
-
-
-
-
-
 
 
     <!--====================  scroll top ====================-->
@@ -281,11 +243,6 @@
         </div>
     </div>
     <!--====================  End of mobile menu overlay  ====================-->
-
-
-
-
-
 
 
     <!--====================  search overlay ====================-->

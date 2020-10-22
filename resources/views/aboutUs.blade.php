@@ -21,16 +21,16 @@
                 <div class="row">
                     <div class="col-lg-4 offset-lg-1">
                         <div class="modern-number-01">
-                            <h2 class="heading  mr-5"><span class="mark-text">38</span>Years’ Experience in IT</h2>
+                            <h2 class="heading  mr-5"><span class="mark-text">1</span>Years’ Experience in IT</h2>
                             <h6 class="heading mt-30">More About Our Success Stories</h6>
                         </div>
                     </div>
 
                     <div class="col-lg-5 offset-lg-1">
                         <div class="cybersecurity-about-text">
-                            <div class="text">Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.</div>
+                            <div class="text">Akisan Tech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.</div>
                             <div class="button-text">
-                                <a href="#" class="btn-text">
+                            <a href="{{ url('contact-us')}}" class="btn-text">
                                     Discover now
                                     <span class="button-icon ml-1">
                                 <i class="far fa-long-arrow-right"></i>
@@ -60,7 +60,7 @@
                                             <h5 class="heading">What we can do?</h5>
                                             <div class="text">We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.
                                             </div>
-                                            <a href="#" class="box-images-arrow">
+                                            <a href="{{ url('contact-us')}}" class="box-images-arrow">
                                                 <span class="button-text">Discover now</span>
                                                 <i class="far fa-long-arrow-right"></i>
                                             </a>
@@ -82,7 +82,7 @@
                                             <h5 class="heading">Become our partners?</h5>
                                             <div class="text">Our preventive and progressive approach will help you take the lead while addressing possible threats in managing data.
                                             </div>
-                                            <a href="#" class="box-images-arrow">
+                                            <a href="{{ url('contact-us')}}" class="box-images-arrow">
                                                 <span class="button-text">Discover now</span>
                                                 <i class="far fa-long-arrow-right"></i>
                                             </a>
@@ -104,7 +104,7 @@
                                             <h5 class="heading">Need a hand?</h5>
                                             <div class="text">Our support team is available 24/7 a day, 7 days a week and can get ready for solving any of your situational rising problems.
                                             </div>
-                                            <a href="#" class="box-images-arrow">
+                                            <a href="{{ url('contact-us')}}" class="box-images-arrow">
                                                 <span class="button-text">Discover now</span>
                                                 <i class="far fa-long-arrow-right"></i>
                                             </a>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
 
-                    <div class="section-under-heading text-center section-space--mt_60">Challenges are just opportunities in disguise. <a href="#">Take the challenge!</a></div>
+                <div class="section-under-heading text-center section-space--mt_60">"Challenges are just opportunities in disguise." <a href="{{url('contact-us')}}">Take the challenge!</a></div>
 
                 </div>
             </div>
@@ -129,7 +129,7 @@
 
 
     <!--========= About Resources Wrapper Start ===========-->
-    <div class="about-resources-wrapper">
+    {{-- <div class="about-resources-wrapper">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-2 order-lg-1">
@@ -147,14 +147,14 @@
                     <div class="resources-right-box">
                         <div class="resources-right-inner text-center">
                             <div class="resources-images">
-                                <img class="img-fluid" src="assets/images/banners/managed-it-services-book-cover.png" alt="">
+                                <img class="img-fluid" src="assets/images/banners/consultant.png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--========= About Resources Wrapper End ===========-->
     <!--========= About Delivering Wrapper Start ===========-->
     <div class="about-delivering-wrapper section-space--ptb_100">
@@ -205,7 +205,7 @@
                             <div class="marker"></div>
                             <div class="title-wrap">
                                 <h5 class="title">Infrastructure Integration Technology </h5>
-                                <div class="desc">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution. </div>
+                                <div class="desc">At Akisan Tech, we have a holistic and integrated approach towards core modernization to experience technological evolution. </div>
                             </div>
                         </div>
                         <div class="list-item">
@@ -221,7 +221,7 @@
         </div>
     </div>
     <!--=========== fun fact Wrapper Start ==========-->
-    <div class="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
+    {{-- <div class="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6 wow move-up">
@@ -250,7 +250,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--=========== fun fact Wrapper End ==========-->
  
 
@@ -260,14 +260,14 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="image">
-                        <img class="img-fluid" src="assets/images/banners/home-cybersecurity-contact-bg-image.png" alt="">
+                        <img class="img-fluid" src="assets/images/banners/optimize.png" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-4 ml-auto">
                     <div class="contact-info style-two text-left">
 
-                        <div class="contact-info-title-wrap text-center">
+                        {{-- <div class="contact-info-title-wrap text-center">
                             <h3 class="heading  mb-10">4.9/5.0</h3>
                             <div class="ht-star-rating lg-style">
                                 <span class="fa fa-star"></span>
@@ -277,10 +277,10 @@
                                 <span class="fa fa-star"></span>
                             </div>
                             <p class="sub-text">by 700+ customers for 3200+ clients</p>
-                        </div>
+                        </div> --}}
 
                         <div class="contact-list-item">
-                            <a href="tel:190068668" class="single-contact-list">
+                            <a href="tel:(+234)9099175200" class="single-contact-list">
                                 <div class="content-wrap">
                                     <div class="content">
                                         <div class="icon">
@@ -288,12 +288,12 @@
                                         </div>
                                         <div class="main-content">
                                             <h6 class="heading">Call for advice now!</h6>
-                                            <div class="text">1900 68668</div>
+                                            <div class="text">(+234)9099175200</div>
                                         </div>
                                     </div>
                                 </div>
                             </a>
-                            <a href="mailto:hello@mitech.com" class="single-contact-list">
+                            <a href="mailto:info@akisantech.com" class="single-contact-list">
                                 <div class="content-wrap">
                                     <div class="content">
                                         <div class="icon">
@@ -301,7 +301,7 @@
                                         </div>
                                         <div class="main-content">
                                             <h6 class="heading">Say hello</h6>
-                                            <div class="text">hello@mitech.com</div>
+                                            <div class="text">info@akisantech.com</div>
                                         </div>
                                     </div>
                                 </div>

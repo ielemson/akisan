@@ -18,7 +18,7 @@
                   <div class="logo">
                     <a href="index.html">
                       <img
-                        src="assets/images/logo/aktech-logo.png"
+                        src="assets/images/logo/logo-text.png"
                         class="img-fluid"
                         alt="akisan tech logo"
                       />

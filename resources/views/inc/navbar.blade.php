@@ -6,9 +6,9 @@
           <div class="header position-relative">
             <!-- brand logo -->
             <div class="">
-              <a href="/">
+            <a href="{{ url('/')}}">
                 <img
-                  src="{{ asset('assets/images/logo/logos.png')}}"
+                  src="{{ asset('assets/images/logo/logo-text.png')}}"
                   class="img-fluid"
                   alt="Logo Akisan-Tech"
                 />

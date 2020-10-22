@@ -6,7 +6,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
             <div class="footer-widget__logo mb-30">
               <img
-                src="assets/images/logo/aktech-logo.png"
+                src="{{ asset('assets/images/logo/logo-text.png')}}"
                 class="img-fluid"
                 alt=""
               />
@@ -69,7 +69,7 @@
             <ul class="footer-widget__list">
               <li><a href="#" class="hover-style-link">Forum Support</a></li>
               <li><a href="#" class="hover-style-link">Help & FAQ</a></li>
-              <li><a href="#" class="hover-style-link">Contact Us</a></li>
+            <li><a href="{{ url('contact-us')}}" class="hover-style-link">Contact Us</a></li>
               <li>
                 <a href="#" class="hover-style-link">Pricing and plans</a>
               </li>
@@ -83,7 +83,7 @@
                 <a href="#" class="image_btn"
                   ><img
                     class="img-fluid"
-                    src="assets/images/icons/aeroland-button-google-play.jpg"
+                    src="{{ asset('assets/images/icons/aeroland-button-google-play.jpg')}}"
                     alt=""
                 /></a>
               </li>
@@ -91,7 +91,7 @@
                 <a href="#" class="image_btn"
                   ><img
                     class="img-fluid"
-                    src="assets/images/icons/aeroland-button-app-store.jpg"
+                    src="{{ asset('assets/images/icons/aeroland-button-app-store.jpg')}}"
                     alt=""
                 /></a>
               </li>
@@ -177,7 +177,7 @@
               <div class="logo">
                 <a href="index.html">
                   <img
-                    src="assets/images/logo/aktech-logo.png"
+                    src="assets/images/logo/logo-text.png"
                     class="img-fluid"
                     alt="akisan tech logo"
                   />

@@ -1,8 +1,17 @@
-
-
     <!--====================  header area ====================-->
     <div class="header-area header-area--default">
 
+        <!-- Header Top Wrap Start -->
+        {{-- <div class="header-top-wrap border-bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="text-center top-message"><a href="#">Now Hiring:</a> Are you a driven and motivated 1st Line IT Support Engineer?</p>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+        <!-- Header Top Wrap End -->
 
         <!-- Header Bottom Wrap Start -->
         <div class="header-bottom-wrap header-sticky">
@@ -13,8 +22,8 @@
 
                             <!-- brand logo -->
                             <div class="header__logo">
-                                <a href="/">
-                                    <img src="{{ asset('assets/images/logo/fav.png')}}" class="img-fluid" alt="">
+                            <a href="{{ url('/')}}">
+                                    <img src="assets/images/logo/logo-640x192.png" class="img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -28,13 +37,12 @@
                                                 <nav class="navigation-menu primary--menu">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><span>Home</span></a>
-                                                          
+                                                        <a href="{{ url('/')}}"><span>Home</span></a>
+                                                           
                                                         </li>
                                                         <li class="has-children has-children--multilevel-submenu">
                                                             <a href="#"><span>Company</span></a>
                                                             <ul class="submenu">
-                                                             
                                                                 <li><a href="{{ url('/comingsoon')}}"><span>Leadership</span></a></li>
                                                                 <li><a href="{{ url('/comingsoon')}}"><span>Why choose us</span></a></li>
                                                                
@@ -47,17 +55,19 @@
                                                                 <li><a href="{{ url('/comingsoon')}}"><span>Managed IT Services</span></a></li>
                                                                 <li><a href="{{ url('/comingsoon')}}"><span>Industries</span></a></li>
                                                                 <li><a href="{{ url('/comingsoon')}}"><span>Business solution</span></a></li>
+                                                                <li><a href="{{ url('/comingsoon')}}"><span>IT Services Details</span></a></li>
                                                             </ul>
                                                         </li>
-                                                        <li>
-                                                            <a href="{{ url('contact-us')}}"><span>Contact Us</span></a>
-                                                         
-                                                        </li>
                                                         <li >
-                                                            <a href="{{ url('about-us')}}"><span>About Us</span></a>
+                                                        <a href="{{ url('contact-us')}}"><span>Contact Us</span></a>
+                                                            <!-- mega menu -->
                                                           
                                                         </li>
-                                                       
+                                                        <li >
+                                                        <a href="{{ url('about-us')}}"><span>About Us</span></a>
+                                                           
+                                                        </li>
+                                                        
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -138,18 +148,17 @@
 
 
 
-
     <!-- breadcrumb-area start -->
     <div class="breadcrumb-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="breadcrumb_box text-center">
-                    <h2 class="breadcrumb-title">{{$title}}</h2>
+                        <h2 class="breadcrumb-title">Contact us</h2>
                         <!-- breadcrumb-list start -->
                         <ul class="breadcrumb-list">
-                            <li class="breadcrumb-item"><a href="/">Home</a></li>
-                        <li class="breadcrumb-item active">{{$title}}</li>
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active">Contact us </li>
                         </ul>
                         <!-- breadcrumb-list end -->
                     </div>
@@ -158,3 +167,7 @@
         </div>
     </div>
     <!-- breadcrumb-area end -->
+
+
+
+
