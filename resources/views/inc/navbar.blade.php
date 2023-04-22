@@ -8,9 +8,9 @@
             <div class="">
             <a href="{{ url('/')}}">
                 <img
-                  src="{{ asset('assets/images/logo/logo-text.png')}}"
+                  src="{{ asset('assets/images/logo/logo.png')}}"
                   class="img-fluid"
-                  alt="Logo Akisan-Tech"
+                  alt="Akisan-Tech"
                 />
               </a>
             </div>

@@ -101,11 +101,12 @@
         <!-- Hero -->
         <li class="layer" data-depth="0.20">
           <div class="title" data-0="opacity: 1;" data-top-bottom="opacity: 0;">
-            <img
+            <a href="{{url('/')}}"><img
               class="has-retina"
               src="assets/soon/images/logo-dark.png"
               alt="Opia"
-            /><span class="line"></span>
+            /></a>
+            <span class="line"></span>
           </div>
         </li>
         <li class="layer" data-depth="0.30">

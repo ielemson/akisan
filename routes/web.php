@@ -36,9 +36,12 @@ Route::get('/comingsoon', 'ComingSoonController@index')->name('index');
 //     return view('aboutUs');
 // });
 
-Route::get('/about-us', 'AboutUsController@index')->name('index');
+Route::get('/about-us', 'AboutUsController@index')->name('about_us');
 
-Route::get('/contact-us', 'ContactUsController@index')->name('index');
+Route::get('/why-choose-us', 'AboutUsController@whyChooseUs')->name('why_choose_us');
+
+Route::get('/contact-us', 'ContactUsController@index')->name('contact_us');
+
 // Post form data
 Route::post('/contact', [
     'uses' => 'ContactUsController@ContactUsForm',

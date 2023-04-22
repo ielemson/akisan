@@ -19,16 +19,24 @@
 
             <div class="cybersecurity-about-box section-space--pb_70">
                 <div class="row">
-                    <div class="col-lg-4 offset-lg-1">
+                    {{-- <div class="col-lg-4 offset-lg-1">
                         <div class="modern-number-01">
                             <h2 class="heading  mr-5"><span class="mark-text">1</span>Years’ Experience in IT</h2>
                             <h6 class="heading mt-30">More About Our Success Stories</h6>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="col-lg-5 offset-lg-1">
+                    <div class="col-lg-12">
                         <div class="cybersecurity-about-text">
-                            <div class="text">Akisan Tech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.</div>
+                            <div class="text">
+                                At AKISAN TECH, we're more than just a tech company. We're passionate about technology and its potential to transform the way we live and work. We believe in pushing the boundaries of what's possible, whether we're creating innovative products in-house or providing customized solutions for our clients.
+                                Our team of experts specializes in product development, personalized software solutions, and reliable IT support. We work closely with you to understand your unique needs and challenges, and we use our expertise to create solutions that exceed your expectations. But we don't just stop there.
+                                We also create cutting-edge products in-house for the public to use, leveraging our expertise to build solutions that make a real difference. Our products are designed to simplify your life, streamline your processes, and improve your overall experience. From mobile apps to desktop software, we're always exploring new and innovative ways to harness the power of technology for the greater good.
+                                Choose AKISAN TECH for cutting-edge technology, personalized attention, and exceptional service. Let us help you take your business to the next level, or discover how our in-house products can make your life easier.
+                                We look forward to partnering with you.
+                                AKISAN TECH.    {{-- Akisan Tech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.--}}
+                            
+                            </div> 
                             <div class="button-text">
                             <a href="{{ url('contact-us')}}" class="btn-text">
                                     Discover now

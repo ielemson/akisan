@@ -28,6 +28,10 @@ return view('aboutUs')->with('title' , $title);
 
 }
 
+public function whyChooseUs(){
+    $title = "Why Choose Us";
+    return view('whyChooseUs')->with('title',$title);
+}
 
 
 }

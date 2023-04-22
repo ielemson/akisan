@@ -16,7 +16,7 @@
                 <div class="col-md-6 col-8">
                   <!-- logo -->
                   <div class="logo">
-                    <a href="index.html">
+                    <a href="{{url('/')}}">
                       <img
                         src="assets/images/logo/logo-text.png"
                         class="img-fluid"
@@ -41,7 +41,7 @@
             <nav class="offcanvas-navigation">
               <ul>
                 <li class="has-children">
-                  <a href="index.html">Home</a>
+                  <a href="{{url('/')}}">Home</a>
                   <ul class="sub-menu">
                     <li>
                       <a href="coming-soon.html"><span>Infotechno</span></a>

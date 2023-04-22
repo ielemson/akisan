@@ -13,9 +13,9 @@
     {{-- <title>{{ config('app.name', 'Akisan') }} | Home</title> --}}
     <title>
         @if(empty($title))
-        Akinsan Tech
+        Akisan Tech
         @else
-        Akinsan Tech | {{$title}}
+        Akisan Tech :: {{$title}}
         @endif
         </title>
     <!-- Scripts -->

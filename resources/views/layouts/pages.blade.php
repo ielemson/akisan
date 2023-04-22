@@ -14,9 +14,9 @@
 
     <title>
         @if(empty($title))
-        Akinsan Tech
+        Akisan Tech
         @else
-        Akinsan Tech | {{$title}}
+        Akisan Tech :: {{$title}}
         @endif
         </title>
     <!-- Scripts -->
@@ -93,7 +93,7 @@
                         <div class="col-md-6 col-8">
                             <!-- logo -->
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="{{url('/')}}">
                                     <img src="assets/images/logo/logo-dark.png" class="img-fluid" alt="">
                                 </a>
                             </div>
@@ -111,7 +111,7 @@
                 <nav class="offcanvas-navigation">
                     <ul>
                         <li class="has-children">
-                            <a href="index.html">Home</a>
+                            <a href="{{url('/')}}">Home</a>
                             <ul class="sub-menu">
                                 <li><a href="index-infotechno.html"><span>Infotechno</span></a></li>
                                 <li><a href="index-processing.html"><span>Processing</span></a></li>
