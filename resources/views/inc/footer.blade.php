@@ -6,7 +6,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
             <div class="footer-widget__logo mb-30">
               <img
-                src="{{ asset('assets/images/logo/logo-text.png')}}"
+                src="{{ asset('assets/images/logo/logo.png')}}"
                 class="img-fluid"
                 alt=""
               />

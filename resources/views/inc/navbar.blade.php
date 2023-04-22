@@ -177,12 +177,12 @@
                         <ul class="submenu">
                         
                           <li>
-                            <a href="{{ url('/comingsoon')}}"
+                            <a href="{{url('comingsoon')}}"
                               ><span>Leadership</span></a
                             >
                           </li>
                           <li>
-                            <a href="{{ url('/comingsoon')}}"
+                            <a href="{{route('why_choose_us')}}"
                               ><span>Why choose us</span></a
                             >
                           </li>
@@ -194,30 +194,25 @@
                         <a href="#"><span>IT solutions</span></a>
                         <ul class="submenu">
                           <li>
-                            <a href="{{ url('/comingsoon')}}"
-                              ><span>IT Services</span></a
+                            <a href="{{url('comingsoon')}}"
+                              ><span>
+                                Products
+                              </span></a
                             >
                           </li>
                           <li>
-                            <a href="{{ url('/comingsoon')}}"
-                              ><span>Managed IT Services</span></a
+                            <a href="{{url('comingsoon')}}"
+                              ><span>
+                                IT services</span></a
                             >
                           </li>
+                          
                           <li>
-                            <a href="{{ url('/comingsoon')}}"
-                              ><span>Industries</span></a
-                            >
-                          </li>
-                          <li>
-                            <a href="{{ url('/comingsoon')}}"
+                            <a href="{{url('comingsoon')}}"
                               ><span>Business solution</span></a
                             >
                           </li>
-                          <li>
-                            <a href="{{ url('/comingsoon')}}"
-                              ><span>IT Services Details</span></a
-                            >
-                          </li>
+                          
                         </ul>
                       </li>
 
