@@ -191,110 +191,46 @@
       <div class="mobile-menu-overlay__body">
         <nav class="offcanvas-navigation">
           <ul>
-            <li class="has-children">
+            <li >
               <a href="{{url('/')}}">Home</a>
-              <ul class="sub-menu">
-                <li>
-                  <a href="coming-soon.html"><span>Infotechno</span></a>
-                </li>
-                <li>
-                  <a href="coming-soon.html"><span>Processing</span></a>
-                </li>
-                <li>
-                  <a href="coming-soon.html"
-                    ><span>Appointment</span></a
-                  >
-                </li>
-                <li>
-                  <a href="coming-soon.html"><span>Services</span></a>
-                </li>
-                <li>
-                  <a href="coming-soon.html"
-                    ><span>Resolutions</span></a
-                  >
-                </li>
-                <li>
-                  <a href="coming-soon.html"
-                    ><span>cybersecurity</span></a
-                  >
-                </li>
-              </ul>
+            
             </li>
             <li class="has-children">
               <a href="#">Company</a>
               <ul class="sub-menu">
-                <li class="has-children">
-                  <a href="coming-soon.html"><span>About us</span></a>
-                  <ul class="sub-menu">
-                    <li>
-                      <a href="coming-soon.html"><span>About us 01</span></a>
-                    </li>
-                    <li>
-                      <a href="coming-soon.html"><span>About us 02</span></a>
-                    </li>
-                    <li class="has-children">
-                      <a href="#"><span>Submenu Level Two</span></a>
-                      <ul class="sub-menu">
-                        <li>
-                          <a href="#"><span>Submenu Level Three</span></a>
-                        </li>
-                        <li>
-                          <a href="#"><span>Submenu Level Three</span></a>
-                        </li>
-                        <li>
-                          <a href="#"><span>Submenu Level Three</span></a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                <li>
+                  <a href="{{route('about_us')}}"><span>About us</span></a>
+                 
                 </li>
                 <li>
-                  <a href="coming-soon.html"><span>Contact us</span></a>
+                  <a href="{{route('contact_us')}}"><span>Contact us</span></a>
                 </li>
                 <li>
-                  <a href="coming-soon.html"><span>Leadership</span></a>
+                  <a href="#"><span>Leadership</span></a>
                 </li>
                 <li>
-                  <a href="coming-soon.html"><span>Why choose us</span></a>
+                  <a href="{{route('why_choose_us')}}"><span>Why choose us</span></a>
                 </li>
-                <li>
-                  <a href="coming-soon.html"><span>Our history</span></a>
-                </li>
-                <li>
-                  <a href="coming-soon.html"><span>FAQs</span></a>
-                </li>
-                <li>
-                  <a href="coming-soon.html"><span>Careers</span></a>
-                </li>
-                <li>
-                  <a href="coming-soon.html"><span>Pricing plans</span></a>
-                </li>
+               
               </ul>
             </li>
             <li class="has-children">
-              <a href="#">IT solutions</a>
+              <a href="{{url('comingsoon')}}">IT solutions</a>
               <ul class="sub-menu">
                 <li>
-                  <a href="coming-soon.html"><span>IT Services</span></a>
+                  <a href="{{url('comingsoon')}}"><span>Products</span></a>
                 </li>
                 <li>
-                  <a href="coming-soon.html"
-                    ><span>Managed IT Services</span></a
+                  <a href="{{url('comingsoon')}}"
+                    ><span>IT Services</span></a
                   >
-                </li>
+               
                 <li>
-                  <a href="coming-soon.html"><span>Industries</span></a>
-                </li>
-                <li>
-                  <a href="coming-soon.html"
+                  <a href="{{url('comingsoon')}}"
                     ><span>Business solution</span></a
                   >
                 </li>
-                <li>
-                  <a href="coming-soon.html"
-                    ><span>IT Services Details</span></a
-                  >
-                </li>
+               
               </ul>
             </li>
           </ul>

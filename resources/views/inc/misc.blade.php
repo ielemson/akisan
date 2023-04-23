@@ -42,32 +42,7 @@
               <ul>
                 <li >
                   <a href="{{url('/')}}">Home</a>
-                  {{-- <ul class="sub-menu">
-                    <li>
-                      <a href="#"><span>Infotechno</span></a>
-                    </li>
-                    <li>
-                      <a href="#"><span>Processing</span></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><span>Appointment</span></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"><span>Services</span></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><span>Resolutions</span></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><span>cybersecurity</span></a
-                      >
-                    </li>
-                  </ul> --}}
+                
                 </li>
                 <li class="has-children">
                   <a href="#">Company</a>
