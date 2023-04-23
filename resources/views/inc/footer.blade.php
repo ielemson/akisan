@@ -38,25 +38,20 @@
             </ul>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-            <h6 class="footer-widget__title mb-20">IT Services</h6>
+            <h6 class="footer-widget__title mb-20">Products</h6>
             <ul class="footer-widget__list">
               <li><a href="#" class="hover-style-link">Managed IT</a></li>
-              <li><a href="#" class="hover-style-link">IT Support</a></li>
-              <li><a href="#" class="hover-style-link">IT Consultancy</a></li>
-              <li>
-                <a href="#" class="hover-style-link">Cloud Computing</a>
-              </li>
-              <li><a href="#" class="hover-style-link">Cyber Security</a></li>
+              <li><a href="#" class="hover-style-link">IT Services</a></li>
+              <li><a href="#" class="hover-style-link">Business Solution</a></li>
+              
             </ul>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
             <h6 class="footer-widget__title mb-20">Quick links</h6>
             <ul class="footer-widget__list">
+              
               <li>
-                <a href="#" class="hover-style-link">Pick up locations</a>
-              </li>
-              <li>
-                <a href="#" class="hover-style-link">Terms of Payment</a>
+                <a href="#" class="hover-style-link">Terms of Services</a>
               </li>
               <li><a href="#" class="hover-style-link">Privacy Policy</a></li>
               <li>
@@ -68,12 +63,9 @@
             <h6 class="footer-widget__title mb-20">Support</h6>
             <ul class="footer-widget__list">
               <li><a href="#" class="hover-style-link">Forum Support</a></li>
-              <li><a href="#" class="hover-style-link">Help & FAQ</a></li>
             <li><a href="{{ url('contact-us')}}" class="hover-style-link">Contact Us</a></li>
-              <li>
-                <a href="#" class="hover-style-link">Pricing and plans</a>
-              </li>
-              <li><a href="#" class="hover-style-link">Cookies Policy</a></li>
+             
+             <li><a href="#" class="hover-style-link">Cookies Policy</a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
@@ -105,8 +97,8 @@
         <div class="row align-items-center">
           <div class="col-md-6 text-center text-md-left">
             <span class="copyright-text"
-              >&copy; 2020 Akisan Tech&#174;
-              <a href="https://hasthemes.com/">All Rights Reserved.</a></span
+              >&copy; 2023 Akisan Tech&#174;
+              <a href="https://akisantech.com">All Rights Reserved.</a></span
             >
           </div>
           <div class="col-md-6 text-center text-md-right">
