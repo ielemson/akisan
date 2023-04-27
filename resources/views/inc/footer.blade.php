@@ -206,7 +206,7 @@
                   <a href="{{route('contact_us')}}"><span>Contact us</span></a>
                 </li>
                 <li>
-                  <a href="#"><span>Leadership</span></a>
+                  <a href="{{route('leadership')}}"><span>Leadership</span></a>
                 </li>
                 <li>
                   <a href="{{route('why_choose_us')}}"><span>Why choose us</span></a>

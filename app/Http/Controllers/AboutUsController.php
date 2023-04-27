@@ -33,5 +33,24 @@ public function whyChooseUs(){
     return view('whyChooseUs')->with('title',$title);
 }
 
+public function leaderShip(){
+    $title = "Leadership";
+    return view('leadership')->with('title',$title);
+}
+
+public function akisanmiAyomide(){
+$title = 'Leadership- Akisanmi Ayomide';
+    return view('team.akisanmi-ayomide')->with('title',$title);
+}
+
+public function elemsonIfeanyi(){
+$title = 'Leadership- Elemson IFeanyi';
+    return view('team.elemson-ifeanyi')->with('title',$title);
+}
+
+public function mohammedaminAbdi(){
+$title = 'Leadership- Mohammedamin Abdi';
+    return view('team.mohammedamin-abdi')->with('title',$title);
+}
 
 }

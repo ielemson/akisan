@@ -43,7 +43,7 @@
                                                         <li class="has-children has-children--multilevel-submenu">
                                                             <a href="#"><span>Company</span></a>
                                                             <ul class="submenu">
-                                                                <li><a href="{{url('comingsoon')}}}"><span>Leadership</span></a></li>
+                                                                <li><a href="{{route('leadership')}}"><span>Leadership</span></a></li>
                                                                 <li><a href="{{route('why_choose_us')}}"><span>Why choose us</span></a></li>
                                                                
                                                             </ul>

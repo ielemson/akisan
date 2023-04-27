@@ -37,6 +37,10 @@ Route::get('/comingsoon', 'ComingSoonController@index')->name('index');
 // });
 
 Route::get('/about-us', 'AboutUsController@index')->name('about_us');
+Route::get('/leadership', 'AboutUsController@leaderShip')->name('leadership');
+Route::get('/leadership/akisanmi-ayomide', 'AboutUsController@akisanmiAyomide')->name('akisanmi_ayomide');
+Route::get('/leadership/mohammedamin-abdi', 'AboutUsController@mohammedaminAbdi')->name('mohammedamin_abdi');
+Route::get('/leadership/elemson-ifeanyi', 'AboutUsController@elemsonIfeanyi')->name('elemson_ifeanyi');
 
 Route::get('/why-choose-us', 'AboutUsController@whyChooseUs')->name('why_choose_us');
 

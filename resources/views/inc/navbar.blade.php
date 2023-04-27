@@ -177,7 +177,7 @@
                         <ul class="submenu">
                         
                           <li>
-                            <a href="{{url('comingsoon')}}"
+                            <a href="{{route('leadership')}}"
                               ><span>Leadership</span></a
                             >
                           </li>
