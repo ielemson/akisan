@@ -97,7 +97,7 @@ id="subject" required/>
 <div class="conact-info-wrap mt-30">
 <h5 class="heading mb-20">Lagos, Nigeria</h5>
 <ul class="conact-info__list">
-<li>11 Ojulowo Imoshe,Anifowose, Ikeja Lagos State</li>
+{{-- <li>Lagos State</li> --}}
 <li><a href="#" class="hover-style-link text-color-primary"> info@akisantech.com</a></li>
 <li><a href="#" class="hover-style-link text-black font-weight--bold">(+234)9099175200</a></li>
 </ul>

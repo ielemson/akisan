@@ -105,7 +105,7 @@
                     <a
                       class="social-link hint--black hint--bottom-left"
                       aria-label="Instagram"
-                      href="https://instagram.com/akisantech"
+                      href="https://instagram.com/akisan_tech?igshid=YmMyMTA2M2Y="
                       data-hover="Instagram"
                       target="_blank"
                     >

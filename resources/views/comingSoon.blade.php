@@ -98,7 +98,7 @@
                       <a href="https://linkedin.com/company/akisan-tech" target="_blank">Lkdn</a>
                     </li>
                     <li>
-                      <a href="https://instagram.com/akisantech" target="_blank">In</a>
+                      <a href="https://instagram.com/akisan_tech?igshid=YmMyMTA2M2Y=" target="_blank">In</a>
                     </li>
                     <li>
                       <a href="https://twitter.com/akisantech" target="_blank">Tw</a>
@@ -242,7 +242,7 @@
                         <a href="https://linkedin.com/company/akisan-tech" target="_blank">Lkdn</a>
                       </li>
                       <li>
-                        <a href="https://instagram.com/akisantech" target="_blank">In</a>
+                        <a href="https://instagram.com/akisan_tech?igshid=YmMyMTA2M2Y=" target="_blank">In</a>
                       </li>
                       <li>
                         <a href="https://twitter.com/akisantech" target="_blank">Tw</a>

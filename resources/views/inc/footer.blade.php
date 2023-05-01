@@ -68,27 +68,7 @@
              <li><a href="#" class="hover-style-link">Cookies Policy</a></li>
             </ul>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-            <div class="footer-widget__title section-space--mb_50"></div>
-            <ul class="footer-widget__list">
-              <li>
-                <a href="#" class="image_btn"
-                  ><img
-                    class="img-fluid"
-                    src="{{ asset('assets/images/icons/aeroland-button-google-play.jpg')}}"
-                    alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="#" class="image_btn"
-                  ><img
-                    class="img-fluid"
-                    src="{{ asset('assets/images/icons/aeroland-button-app-store.jpg')}}"
-                    alt=""
-                /></a>
-              </li>
-            </ul>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -125,7 +105,7 @@
               </li> --}}
               <li class="item">
                 <a
-                  href="https://instagram.com/akisantech"
+                  href="https://instagram.com/akisan_tech?igshid=YmMyMTA2M2Y="
                   target="_blank"
                   aria-label="Instagram"
                   class="social-link hint--bounce hint--top hint--primary"
@@ -169,7 +149,7 @@
               <div class="logo">
                 <a href="{{url('/')}}">
                   <img
-                    src="assets/images/logo/logo-text.png"
+                    src="{{asset('assets/images/logo/akisan-logo-dark.png')}}"
                     class="img-fluid"
                     alt="akisan tech logo"
                   />
