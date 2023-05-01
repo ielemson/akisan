@@ -8,7 +8,7 @@
             <div class="">
             <a href="{{ url('/')}}">
                 <img
-                  src="{{ asset('assets/images/logo/logo.png')}}"
+                  src="{{ asset('assets/images/logo/akisan-logo-dark.png')}}"
                   class="img-fluid"
                   alt="Akisan-Tech"
                 />
@@ -97,25 +97,17 @@
                     <a
                       class="social-link hint--black hint--bottom-left"
                       aria-label="Twitter"
-                      href="https://twitter.com"
+                      href="https://twitter.com/akisantech"
                       data-hover="Twitter"
                       target="_blank"
                     >
                       <i class="social-icon fab fa-twitter"></i>
                     </a>
-                    <a
-                      class="social-link hint--black hint--bottom-left"
-                      aria-label="Facebook"
-                      href="https://facebook.com"
-                      data-hover="Facebook"
-                      target="_blank"
-                    >
-                      <i class="social-icon fab fa-facebook-f"></i>
-                    </a>
+                   
                     <a
                       class="social-link hint--black hint--bottom-left"
                       aria-label="Instagram"
-                      href="https://instagram.com"
+                      href="https://instagram.com/akisantech"
                       data-hover="Instagram"
                       target="_blank"
                     >
@@ -124,7 +116,7 @@
                     <a
                       class="social-link hint--black hint--bottom-left"
                       aria-label="Linkedin"
-                      href="https://linkedin.com"
+                      href="https://linkedin.com/company/akisan-tech"
                       data-hover="Linkedin"
                       target="_blank"
                     >

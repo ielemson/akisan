@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="{{ asset('assets/images/logo/fav.png')}}" />
+    <link rel="icon" href="{{ asset('assets/images/logo/akisan-logo-dark.png')}}" />
     {{-- <title>{{ config('app.name', 'Akisan') }} | Home</title> --}}
 
     <title>

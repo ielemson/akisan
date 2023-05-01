@@ -6,7 +6,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
             <div class="footer-widget__logo mb-30">
               <img
-                src="{{ asset('assets/images/logo/logo.png')}}"
+                src="{{ asset('assets/images/logo/akisan-logo-dark.png')}}"
                 class="img-fluid"
                 alt=""
               />
@@ -105,7 +105,7 @@
             <ul class="list ht-social-networks solid-rounded-icon">
               <li class="item">
                 <a
-                  href="https://twitter.com"
+                  href="https://twitter.com/akisantech"
                   target="_blank"
                   aria-label="Twitter"
                   class="social-link hint--bounce hint--top hint--primary"
@@ -113,7 +113,7 @@
                   <i class="fab fa-twitter link-icon"></i>
                 </a>
               </li>
-              <li class="item">
+              {{-- <li class="item">
                 <a
                   href="https://facebook.com"
                   target="_blank"
@@ -122,10 +122,10 @@
                 >
                   <i class="fab fa-facebook-f link-icon"></i>
                 </a>
-              </li>
+              </li> --}}
               <li class="item">
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/akisantech"
                   target="_blank"
                   aria-label="Instagram"
                   class="social-link hint--bounce hint--top hint--primary"
@@ -135,7 +135,7 @@
               </li>
               <li class="item">
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/company/akisan-tech"
                   target="_blank"
                   aria-label="Linkedin"
                   class="social-link hint--bounce hint--top hint--primary"

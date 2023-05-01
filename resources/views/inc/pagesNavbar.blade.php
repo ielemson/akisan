@@ -23,7 +23,7 @@
                             <!-- brand logo -->
                             <div class="header__logo">
                             <a href="{{ url('/')}}">
-                                    <img src="assets/images/logo/logo-640x192.png" class="img-fluid" alt="">
+                                    <img src="{{asset('assets/images/logo/akisan-logo-dark.png')}}" class="img-fluid" alt="">
                                 </a>
                             </div>
 
