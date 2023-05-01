@@ -13,7 +13,7 @@
             </div>
             <ul class="footer-widget__list">
               <li>
-                11 Ojulowo Imoshe,Anifowose Ikeja <br />
+                {{-- 11 Ojulowo Imoshe,Anifowose Ikeja <br /> --}}
                 Lagos State, Nigeria
               </li>
               <li>

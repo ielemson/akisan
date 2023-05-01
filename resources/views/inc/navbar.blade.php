@@ -57,11 +57,9 @@
                           <span class="fa fa-map-marker-alt"></span>
                         </div>
                         <div class="info-content">
-                          <h6 class="info-title">
-                            11 Ojulowo Imoshe,Anifowose
-                          </h6>
+                         
                           <div class="info-sub-title">
-                            Ikeja Lagos State, Nigeria
+                            Lagos State, Nigeria
                           </div>
                         </div>
                       </div>
